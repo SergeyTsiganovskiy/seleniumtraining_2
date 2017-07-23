@@ -4,18 +4,24 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 
 import java.util.concurrent.TimeUnit;
 
 public class AdminLoginTest {
 
-  private FirefoxDriver driver;
+  private WebDriver driver;
 
   @Before
   public void setUp() throws Exception {
-    System.setProperty("webdriver.gecko.driver", "D:\\geckodriver.exe");
-    driver = new FirefoxDriver();
+//    System.setProperty("webdriver.gecko.driver", "D:\\tools\\geckodriver.exe");
+//    driver = new FirefoxDriver(new FirefoxOptions().setLegacy(true));
+
+//    System.setProperty("webdriver.chrome.driver", "D:\\tools\\chromedriver.exe");
+    driver = new ChromeDriver();
     driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
   }
