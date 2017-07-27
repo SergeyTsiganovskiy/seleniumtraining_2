@@ -11,7 +11,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 import java.util.concurrent.TimeUnit;
 
-public class MenuItemsTests {
+public class MenuItemsTests2 {
     public static WebDriver wd;
     
     @BeforeClass

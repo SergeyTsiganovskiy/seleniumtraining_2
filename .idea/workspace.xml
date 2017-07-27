@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="673fe186-f2cc-497c-a445-2ce441dfeee8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/AdminLoginTest.java" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/AdminLoginTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/MenuItemsTests.java" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/MenuItemsTests2.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -75,11 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MenuItemsTests.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/MenuItemsTests.java">
+      <file leaf-file-name="MenuItemsTests2.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/MenuItemsTests2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+            <state relative-caret-position="-1734">
+              <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -437,6 +437,7 @@
         <option value="$PROJECT_DIR$/src/test/java/ru/stqa/MenuItemsTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/stqa/AdminLoginTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/stqa/MenuItemsTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/stqa/MenuItemsTests2.java" />
       </list>
     </option>
   </component>
@@ -599,7 +600,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MenuItemsTests">
+  <component name="RunManager" selected="JUnit.MenuItemsTests2">
     <configuration default="false" name="AdminLoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -666,7 +667,7 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="MenuItemsTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="MenuItemsTests2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="ru.stqa.*" />
@@ -677,7 +678,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="ru.stqa" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.MenuItemsTests" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.MenuItemsTests2" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -692,7 +693,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="MenuItemsTests.CSVImportExportItemTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="MenuItemsTests2.CSVImportExportItemTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="ru.stqa.*" />
@@ -703,7 +704,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="ru.stqa" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.MenuItemsTests" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.MenuItemsTests2" />
       <option name="METHOD_NAME" value="CSVImportExportItemTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -1109,13 +1110,13 @@
       <item index="0" class="java.lang.String" itemvalue="JUnit.AdminLoginTest" />
       <item index="1" class="java.lang.String" itemvalue="Application.Capabilities" />
       <item index="2" class="java.lang.String" itemvalue="Application.Options" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.MenuItemsTests" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.MenuItemsTests.CSVImportExportItemTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.MenuItemsTests2" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.MenuItemsTests2.CSVImportExportItemTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.MenuItemsTests" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.MenuItemsTests.CSVImportExportItemTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.MenuItemsTests2" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.MenuItemsTests2.CSVImportExportItemTest" />
         <item index="2" class="java.lang.String" itemvalue="Application.Options" />
         <item index="3" class="java.lang.String" itemvalue="Application.Capabilities" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.AdminLoginTest" />
@@ -1142,7 +1143,7 @@
       <workItem from="1500801878303" duration="3569000" />
       <workItem from="1500841694646" duration="632000" />
       <workItem from="1500929286744" duration="101000" />
-      <workItem from="1501146833553" duration="11232000" />
+      <workItem from="1501146833553" duration="13173000" />
     </task>
     <servers />
   </component>
@@ -1179,11 +1180,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26805000" />
+    <option name="totallyTimeSpent" value="28746000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="1" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1541,10 +1541,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/MenuItemsTests.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/MenuItemsTests2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        <state relative-caret-position="-1734">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
