@@ -17,11 +17,7 @@ public class AdminLoginTest {
 
   @Before
   public void setUp() throws Exception {
-//    System.setProperty("webdriver.gecko.driver", "D:\\tools\\geckodriver.exe");
-//    driver = new FirefoxDriver(new FirefoxOptions().setLegacy(true));
-
-//    System.setProperty("webdriver.chrome.driver", "D:\\tools\\chromedriver.exe");
-    driver = new ChromeDriver();
+    driver = new FirefoxDriver();
     driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
   }
